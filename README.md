@@ -17,11 +17,12 @@ senha:  123456
 ## Sobre
 
 O aplicativo foi desenvolvido para a plataforma Android, utilizando a linguagem de programação `Java` e o ambiente de desenvolvimento integrado (IDE) [Android Studio](https://developer.android.com/studio/?hl=pt-br) .
+
 O design do aplicativo segue as diretrizes do [Material Design](https://material.io/design) e foi desenvolvido baseando-se no layout web (garantindo familiaridade para o usuário).
 
 Para a comunicação com o banco de dados, foi desenvolvida uma `API`, utilizando a biblioteca [Volley](https://github.com/google/volley) para fazer as requisições de arquivos *`.php`* hospedados em um website de hospedagem gratuita, o [WebHost](https://www.000webhost.com/), que permite administração do banco de dados `MySQL`, através do `PhpMyAdmin`.
 
-`Obs. : Como o serviço é gratuito, pode ser que as vezes apresente lentidão ou fique sem conexão.`
+`Obs.1 : Como o serviço é gratuito, pode ser que as vezes apresente lentidão ou fique sem conexão.`
 
 ## Ferramentas / documentações utilizadas
 
@@ -41,6 +42,10 @@ O aplicativo desenvolvido conta com suporte para rotação da orientação da te
 
 A tabela abaixo mostra um comparativo entre as telas do aplicativo e do website (similaridade).
 
+`Obs.2 : O Boletim de Ocorrência foi dividido em 4 telas.`
+
+`Obs.3 : Na tela do Sistema, é possível navegar até a tela de Documentos clicando nas circunferências em verde, amarelo e vermelho.`
+
 Tela | Aplicativo | Website
 :---  | :---:  | :---:
 SplashScreen | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Aplicativo/0.png) | -
@@ -57,7 +62,3 @@ Resumo do Boletim de Ocorrência | [visualizar](https://raw.githubusercontent.co
 Dados da Vistoria | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Aplicativo/15.png) | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Site/15.png)
 Danos Humanos | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Aplicativo/16.png) | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Site/16.png)
 Relatório Fotográfico | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Aplicativo/17.png) | [visualizar](https://raw.githubusercontent.com/marcellocamara/TCC/master/ScreenShots/Site/17.png)
-
-`Obs.1 : O Boletim de Ocorrência foi dividido em 4 telas.`
-
-`Obs.2 : Na tela do Sistema, é possível navegar até a tela de Documentos clicando nas circunferências em verde, amarelo e vermelho.`
